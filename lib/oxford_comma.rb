@@ -8,6 +8,6 @@ def oxford_comma(array)
     return splitted
   elsif array.length == 3
     joined = array.join
-    
+
   end
 end
