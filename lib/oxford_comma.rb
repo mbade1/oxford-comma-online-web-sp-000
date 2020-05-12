@@ -3,9 +3,9 @@ def oxford_comma(array)
     return array.join
     return joined
   elsif array.length == 2
-    joined = array.join
-    splitted = joined.split(", ")
-    return splitted
+    joined = array.join(", ")
+    # splitted = joined.split(", ")
+    return joined
   elsif array.length == 3
     joined = array.join
     splitted = joined.split(", and")
